@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     canonical: '/'
   },
   title: {
-    default: 'John Smith',
-    template: '%s | John Smith'
+    default: 'Yazheny Jothiramalingam',
+    template: '%s | Yazheny Jothiramalingam'
   },
-  description: 'My portfolio, blog, and personal website.'
+  description: 'Portfolio website for Yazheny.'
 };
 
 export default function RootLayout({
@@ -39,10 +39,9 @@ export default function RootLayout({
 
 function Footer() {
   const links = [
-    { name: '@johnsmith', url: 'https://x.com/johnsmith' },
-    { name: 'youtube', url: 'https://www.youtube.com/@johnsmith' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/johnsmith' },
-    { name: 'github', url: 'https://github.com/johnsmith' }
+    { name: 'linkedin', url: 'https://www.linkedin.com/in/yazheny-jothi-754707378/' },
+    { name: 'github', url: 'https://github.com/yazheny' },
+    { name: 'email', url: 'mailto:yazhenyjothi@gmail.com' }
   ];
 
   return (
